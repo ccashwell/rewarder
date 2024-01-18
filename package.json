@@ -1,13 +1,13 @@
 {
   "name": "rabbithole",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A simple implementation of a staking system where arbitrary token rewards can be issued proportionally to stakers.",
+  "main": "Rewarder.sol",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "npx solc --base-path . --include-path node_modules --bin --abi --optimize -o ./build *.sol"
   },
   "author": "Chris Cashwell",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@openzeppelin/contracts": "^5.0.1",
     "solc": "^0.8.23-fixed"
