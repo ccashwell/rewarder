@@ -9,7 +9,7 @@
   "author": "Chris Cashwell",
   "license": "MIT",
   "dependencies": {
-    "@openzeppelin/contracts": "^5.0.1",
+    "@openzeppelin/contracts": "^5.0.2",
     "solc": "^0.8.23-fixed"
   }
 }
